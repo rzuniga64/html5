@@ -1,0 +1,19 @@
+﻿#container {
+	width: 700px;
+	margin: auto;
+}
+#branding {
+	background-color: yellow;
+	width: 150px;
+	float: left;
+}
+#content {
+	background-color: #CCCCCC;
+	float: right;
+	width: 550px;
+
+}
+#footer {
+	background-color: #FF9933;
+	clear: both;
+}

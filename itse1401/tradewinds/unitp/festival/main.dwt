@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta content="en-us" http-equiv="Content-Language" />
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<!-- #BeginEditable "doctitle" -->
+	<title>TradeWinds Arts Festival</title>
+	<!-- #EndEditable -->
+	<link href="festival_style.css" rel="stylesheet" type="text/css" />
+	<link href="print_festival_style.css" media="print" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<div id="container">
+		<img alt="Arts Festival" class="artsimg" height="94" src="../assets/twf_arts_side.gif" width="150" />
+		<div id="branding"></div>
+		<div id="content">
+			
+			<ul id="navlist">
+				<li><a href="default.html">Festival</a>
+				<li>&nbsp;<a href="schedule.htm">Schedule</a></li>
+				<li>&nbsp;<a href="sponsors.html">Sponsors</a></li>
+			</ul>
+			
+			<!-- #BeginEditable "pagecontent" -->
+			<p>(pagecontent)</p>
+			<!-- #EndEditable -->
+	</div>
+	<div id="footer">
+		<!-- #BeginEditable "lastupdated" -->
+		<p>(lastupdated)</p>
+<!-- #EndEditable -->
+		&copy; 2013 TradeWinds</div>
+	</div>
+</body>
+</html>
