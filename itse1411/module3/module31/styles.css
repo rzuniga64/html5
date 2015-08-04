@@ -1,0 +1,69 @@
+body {
+    background-color:#A2A637;
+    color:#8B4513;
+    font-size:14px;
+    font-family:"MS Sans Serif",Verdana,Geneva,sans-serif;
+    width:960px }
+
+.main { display:table; float:left; height:40px; margin-top:0; background-color:black;}
+.main h1 {
+    text-align:left;
+    vertical-align:middle;
+    color:white;
+    height:40px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.sub { display:table; height:40px; }
+.sub h3 {
+    text-align: left;
+    color: white;
+    background-color:black;
+    height:40px;
+    margin-top:0;
+    margin-bottom:0;
+    display:table-cell;
+    font-size:14px;
+    font-weight:bold;
+    vertical-align:middle;
+    width:650px;
+}
+.location { color:white; font-weight:normal; margin-bottom:0; background-color:black; }
+
+#left-sidebar { background-color:#485A28; float:left; width:150px;height:500px;}
+#left-side-nav {list-style: none; position: fixed; padding:0;}
+#left-side-nav a {color: white; text-decoration:none; text-transform:uppercase;}
+#left-side-nav a:visited { text-decoration:underline; color:#DDAFE9; }
+#left-side-nav li{ padding: 10px 10px;}
+#left-side-nav li:hover {background-color:#B28000; }
+
+.col-right { width:810px; display:inline-table}
+.col-right td, th { padding:5px; font-family:Arial, sans-serif; }
+.col-right h2, p {margin-left:5px}
+
+#image {position:relative}
+#image-size {width:810px; height:241px; }
+#image h3 {
+    position:absolute;
+    top: 5px;
+    left:350px;
+    color: #A2A637;
+    font-size: 14px;
+}
+
+.content .col-main .table1 .altrow { background-color:#485A28; color:#E0CFA0; }
+.content .col-main .table2 .altrow { background-color:#485A28; color:#E0CFA0; }
+#footer small,a {margin-left:5px}
+
+.table1 { margin:10px auto auto auto; border:2px solid black; width:900px; background-color:#E0CFA0; color:#485A28;}
+
+.table2 {width:810px; background-color:#E0CFA0; color:#485A28; font-size:11px; }
+
+
+
+
+
+
+
+
