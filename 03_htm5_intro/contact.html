@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Contact Us</title>
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+        <h1><span class="blue-text">Blue</span> Developer Directory</h1>
+        <h2>Find A Developer <span class="white-text">NOW</span></h2>
+     </div><!--header end-->
+
+    <div id="menu">
+        <ul>
+            <li class="menuitem"><a href="index.html">Home</a></li>
+            <li class="menuitem"><a href="about.html">About Us</a></li>
+            <li class="menuitem"><a href="browse.html">Browse Developers</a></li>
+            <li class="menuitem"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div><!--menu end-->
+	
+    <div id="leftmenu">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="browse.html">SEO</a></li>
+            <li><a href="browse.html">PHP</a></li>
+            <li><a href="browse.html">Ajax</a></li>
+            <li><a href="browse.html">jQuery</a></li>
+            <li><a href="browse.html">Web design</a></li>
+            <li><a href="browse.html">Web Programming</a></li>
+            <li><a href="browse.html">Content Creation</a></li>
+            <li><a href="browse.html">Internet Marketing</a></li>
+            <li><a href="browse.html">XHTML Templates</a></li>
+        </ul>
+    </div><!--leftmenu end-->
+    
+	<div id="content">
+		<h3>Contact Us</h3>
+			<p>Please use this form to contact a member of our website team</p>
+			<form method="post" action="somescript.php">
+				<p>
+					<label for="name">Full Name:</label>
+                    <!--change type to 'tel'. Used for mobile technology.-->
+					<input type="tel" id="name">
+				</p>
+				<p>
+					<label for="email">Email Address: </label>
+					<!--change type to 'email'-->
+					<input type="email" id="email">
+				</p>
+				<p>
+					<label for="phone">Phone Number: </label>
+					<input type="text" id="phone">
+				</p>
+				<p>
+					<label>Best Time To Call: </label>
+					<input type="radio" name="time" value="morning" checked>Morning
+					<input type="radio" name="time" value="noon">Noon
+					<input type="radio" name="time" value="evening">Evening
+				</p>
+                <p>
+
+                </p>
+                    <!--add a 'datalist'-->
+                    <label>Location: </label>
+                    <input list="location">
+                    <datalist id="location">
+                        <option> value="New York"></option>
+                        <option value="Boston"></option>
+                        <option value="Miami"></option>
+                    </datalist>
+                <fieldset>
+                    <legend>About Your Project</legend>
+                    <p>
+                        <!--add JavaScript function to display the value -->
+                        <script type="text/javascript">
+                            function updateTextInput(val) { document.getElementById('textInput').value=val; }
+                        </script>
+                        <label>Budget: </label>
+                        <!-- remove list and replace with a 'range' and textbox to display value-->
+                        <input id="budget" type="range" name="rangeInput" min="500" max="10000"
+                               onchange="updateTextInput(this.value)">
+                        <input type="text" id="textInput">
+
+                    </p>
+                    <p>
+                        <label>Services Needed: (Check all that apply) </label>
+                        <table>
+                            <tr>
+                                <td><input type="checkbox" name="services" value="html">html</td>
+                                <td><input type="checkbox" name="services" value="php">PHP</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="services" value="asp">ASP</td>
+                                <td><input type="checkbox" name="services" value="java">Java</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="services" value="c">C++</td>
+                                <td><input type="checkbox" name="services" value="design">Design</td>
+                            </tr>
+                        </table>
+                    </p>
+                    <p>
+                        <label for="website">Current Website: </label>
+                        <!-- add a 'url'-->
+                        <input type="url" id="website">
+                    </p>
+                    <p>
+                        <label for="start">Start Date: </label>
+                        <!-- add a datepicker-->
+                        <input type="date" id="start">
+                    </p>
+                    <p>
+                        <label for="pages">Number of Pages: </label>
+                        <!-- add a datepicker-->
+                        <input type="number" id="pages">
+                    </p>
+                    <p>
+                        <label for="colors">Color: </label>
+                        <!-- add a colorpicker-->
+                        <input type="color" id="colors">
+                    </p>
+                </fieldset>
+				<p>
+					<input type="submit" value="Submit Inquiry">
+				</p>
+			</form>
+    </div><!--content end-->
+	
+</div><!--container end-->
+</body>
+</html>
