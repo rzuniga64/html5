@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>El Rico Suave</title>
+        <meta charset="utf-8" />
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+        <!-- Plugin that allows older browser to recognize HTML5 elements. Put before any HTML is rendered. -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+
+        <!-- Custom JS -->
+        <script src="js/script.js"></script>
+		
+	</head>
+    <body onload="var begin=setInterval('bannerAd()',2000);">
+
+        <!-- class container is a bootstrap3 wrapper that centers the website in the middle of the browser and it cuts off the edges -->
+        <div class = "container" id="main">
+
+            <!-- bootstrap3 classes which will give the div the style of the navbar -->
+            <!-- this is set as position=fixed so it doesn't behave as if it is within its parent -->
+            <div class="navbar navbar-fixed-top" id="navbar">
+                <!--want contents of navbar to be in a container so the it is fixed within an area, not full width-->
+                <div class="container">
+                    <!-- will target div element with class navbar-response-collapse below, bootstrap3 feature-->
+                    <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div>
+                        <a style="max-width:300px; padding:5px 5px" class="navbar-brand" href="project3.html"><img style="margin-left:10px" src="images/rico_suave2_thumbnail.png" alt="">&nbsp;El Rico Suave</a>
+                    </div>
+
+                    <!--nav-collapse allows our navbar to be responsive to mobile size-->
+                    <div class="nav-collapse collapse navbar-responsive-collapse navigation">
+
+                        <ul class="nav navbar-nav" style="padding-top:30px">
+                            <li class="dropdown">
+                                <!--droptown-toggle is a bootstrap3 class, data-toggle is a tag for the dropdown-->
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu<strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Breakfast Menu</a></li>
+                                    <li><a href="lunch_menu.html">Lunch Specials</a></li>
+                                    <li><a href="#">Dinner Menu</a></li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">More Services</li>
+                                    <li><a href="#">American Dishes</a></li>
+                                    <li><a href="#">Postres</a></li>
+                                    <li><a href="#">Bar Menu & Beverages</a></li>
+                                    <li><a href="happy_hour_menu.html" onclick="showHappyHour('happy_hour_menu.html'); return false">Happy Hour Specials</a></li>
+                                    <li></li>
+
+                                </ul> <!--dropdown-menu-->
+                            </li>
+                        </ul> <!--nav-->
+
+                    </div> <!--nav-collapse-->
+                </div> <!--constainer-->
+            </div> <!-- navbar -->
+
+            <!-- bootstrap classes that give you a carousel style and have it slide -->
+            <div class="carousel slide" id="myCarousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-target="#myCarousel"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" id="slide1">
+                        <div class="carousel-caption">
+                            <h4>Shrimp tacos</h4>
+                        </div><!-- end carousel-caption-->
+                    </div><!-- end item -->
+
+                    <div class="item" id="slide2">
+                        <div class="carousel-caption">
+                            <h4>Beef Enchiladas</h4>
+                        </div><!-- end carousel-caption-->
+                    </div><!-- end item -->
+
+                    <div class="item" id="slide3">
+                        <div class="carousel-caption">
+                            <h4>Caldo</h4>
+                        </div><!-- end carousel-caption-->
+                    </div><!-- end item -->
+                </div><!-- carousel-inner -->
+
+                <!-- Controls -->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+            </div><!-- end myCarousel -->
+
+            <div class="well">
+                <div class="page-header">
+                    <p class="lead">&nbsp;Rico Suave serves great food and drinks to the people of Austin Texas!<br>
+                    Come in and try our authentic mexican food, bar drinks, and great mariachi music!</p>
+                    <div class="col-sm-5"></div>
+                    <a href="happy_hour_menu.html" class="btn-default btn-large btn-warning" style="background-color: red"
+                            onclick="showHappyHour('happy_hour_menu.html'); return false">Happy Hour Specials!</a>
+                    <div class="col-sm-5"></div>
+                    <p class="lead" style="margin-bottom: 0"><br>Tuesday-Thursday 5-7PM<br>&nbsp;&nbsp;Fridays 9PM-11PM</p>
+                </div><!-- end page-header -->
+            </div><!-- end well -->
+
+            <div class="row" id="features">
+                <div class="col-sm-4 feature">
+                    <div class="panel" id="panel1">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Breakfast<br><small>8:00 am - 11:00 am</small></h3>
+                        </div><!--panel-heading-->
+                        <br><br><br><br><br><br><br><br><br><br><br>
+                        <a href="#" target="_blank" class="btn btn-warning btn-block">Breakfast Menu</a>
+                    </div><!--panel-->
+                </div><!--feature-->
+
+                <div class="col-sm-4 feature">
+                    <div class="panel" id="panel2">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lunch Specials<br><small>Served tues-Friday 11 am - 2 pm</small></h3>
+                        </div><!--panel-heading-->
+                        <br><br><br><br><br><br><br><br><br><br><br>
+                        <a href="lunch_menu.html" target="_blank" class="btn btn-success btn-block">Lunch Specials</a>
+                    </div><!--panel-->
+                </div><!--feature-->
+
+                <div class="col-sm-4 feature">
+                    <div class="panel" id="panel3">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Dinner<br><small>Substitutions are subject to additional charges</small></h3>
+                        </div><!--panel-heading-->
+                        <br><br><br><br><br><br><br><br><br><br><br>
+                        <a href="#" target="_blank" class="btn btn-info btn-block">Dinner Menu</a>
+                    </div><!--panel-->
+                </div><!--feature-->
+
+            </div> <!-- features -->
+
+            <div class="row" id="moreInfo">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-6">
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Location</a> </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <h4><span></span>Our Location<small>&nbsp;is right on SoCo</small></h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3447.134772184985!2d-97.758653!3d30.233233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4eb9282ed59%3A0xb727cce3a041b384!2s2910+S+Congress+Ave!5e0!3m2!1sen!2sus!4v1403601115192" width="100%" height="200" style="border:0"></iframe>
+                                <p>El Rico Suave makes sure only the highest quality ingredients go into each dish.  We continue to make everything from scratch.  Classic Austin Tex-Mex and Mexican Specialities are prepared daily in our kitchen by chefs who have been with our family for over 25 years. We hope our homemade food, family atmosphere and professional staff make your visit each and every time a wonderful experience.</p>
+                                <p>Austin has grown over the past 55 years to an incredibly busy and vibrant city.  It has been our pleasure to serve fellow Austinites, for all these years.  We are incredibly proud that our customers consider themselves a part of the El Rico Suave family and that they agree that El Rico Suave Serves Austin Best Tex-Mex!</p>
+                            </div><!--tab-pane-->
+                        </div><!--tab-content-->
+                    </div><!--tabbable-->
+                </div><!--col-sm-6-->
+                <div class="col-sm-3">
+                </div>
+            </div> <!-- moreInfo -->
+
+            <hr>
+            <div class="row" id="moreCourses">
+            </div> <!-- moreCourses -->
+
+        </div> <!-- container -->
+
+        <!-- put the footer outside the container so it's not chopped off -->
+        <footer>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-sm-2">
+                        <h6>Copyright &copy; 2014 El Rico Suave</h6>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="http://validator.w3.org/check/referer">Conformance<br>Checker</a><br />
+                                    <a href="http://validator.w3.org/checklink">Link Checker</a>
+                                </td>
+                                <td>
+                                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                    <img src="http://www.austincc.edu/jscholl/images/vcss.png" alt="Valid CSS!" height="31" width="88" style="border: 0">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div> <!--col-sm-2-->
+
+                    <div class="col-sm-4">
+                        <h6>Contact Us</h6>
+                        <p>2910 South Congress<br>512-444-6696</p>
+                    </div><!--col-sm-4-->
+
+                    <div class="col-sm-2">
+                        <h6>Navigation</h6>
+                        <ul class="notstyled">
+                            <li><a href="#">Breakfast Menu</a></li>
+                            <li><a href="lunch_menu.html">Lunch Specials</a></li>
+                            <li><a href="#">Dinner Menu</a></li>
+                            <li><a href="#">American Dishes</a></li>
+                            <li><a href="#">Postres</a></li>
+                            <li><a href="#">Bar Menu & Beverages</a></li>
+                            <li><a href="happy_hour_menu.html" onclick="showHappyHour('happy_hour_menu.html'); return false">Happy Hour Specials</a></li>
+                        </ul>
+                    </div> <!--col-sm-2-->
+
+                    <div class="col-sm-2">
+                        <h6>Follow Us</h6>
+                        <ul class="notstyled">
+                            <li><a href="#" target="_blank"><img src="images/twittericon.png" alt=""> Twitter</a></li>
+                            <li><a href="#" target="_blank"><img src="images/facebookicon.png" alt="">Facebook</a></li>
+                            <li><a href="#" target="_blank"><img src="images/instagramicon.png" alt="">Instagram</a></li>
+                        </ul>
+                    </div> <!--col-sm-2-->
+
+                    <div class="col-sm-2">
+                    </div><!-- end col-sm-2 -->
+
+                </div><!--row-->
+            </div><!--container-->
+        </footer>
+        <!-- All Javascript at the bottom of the page for faster page loading -->
+
+        <!-- First try for the online version of jQuery -->
+        <script src="http://code.jquery.com/jquery.js"></script>
+
+        <!-- If no online access, fallback to our hardcoded version of jQuery -->
+        <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+
+        <!-- Bootstrap JS -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            var $ = jQuery.noConflict();
+            $(document).ready(function() {
+                $('#myCarousel').carousel({cycle:true});
+            });
+        </script>
+
+	</body>
+</html>
+
