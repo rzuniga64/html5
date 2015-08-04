@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculate Sales Price</title>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var salesPrice = 100.00;
+        function applyShipping() {
+            var shippingPrice = 8.95;
+            var totalPrice = salesPrice + shippingPrice;
+            document.write("<p>The sales price is $"
+                    + salesPrice + "<br />"); // prints successfully
+            document.write("The shipping price is $"
+                    + shippingPrice + "<br />"); // prints successfully
+            document.write("The sales price plus shipping is $"
+                    + totalPrice + "</p>"); // prints successfully
+        }
+        /* ]]> */
+    </script>
+
+</head>
+<body>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        applyShipping();
+        document.write("<p>The sales price is $"
+                + salesPrice + "<br />"); // prints successfully
+        document.write("The shipping price is $"
+                + shippingPrice + "<br />"); // error message
+        document.write("The sales price plus shipping is $"
+                + totalPrice + "</p>"); // prints successfully
+        /* ]]> */
+    </script>
+
+</body>
+</html>
