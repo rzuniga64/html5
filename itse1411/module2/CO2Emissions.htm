@@ -1,0 +1,33 @@
+<!DOCTYPE html >
+<html lang="en" >
+<head>
+    <title>Raul Zuniga</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <div>
+        <header><h1 align="center">World Carbon Dioxide Emission<br></h1></header>
+        <header><h2 align="center"><em>from Fossil Fuel</em></h2></header>
+        <div id="content">
+        </div>
+        <script type="text/javascript">
+            /* <![CDATA[ */
+                var words = new Array(3);
+                var years = new Array(7);
+                var amountCO2 = new Array(7);
+
+                words = ["In ", " , the worlds generated ", " million metric tons of carbon dioxide emissions from fossil fuel consumption"];
+                years = [ 1980, 1985, 1990, 1995, 2000, 2002, 2003];
+                amountCO2 = [ 18313.13, 19430.24, 21402.22, 22034.54, 23849, 24464.92, 25162.07];
+
+                p = document.getElementById("content");
+                p.innerHTML += "<p>";
+                for (var i=0; i < years.length; i++ )
+                    p.innerHTML += words[0] + years[i] + words[1] + amountCO2[i] + words[2]+'<br>';
+                p.innerHTML += "</p>";
+            /* ]]> */
+        </script>
+        <script type="text/javascript" src="../scripts/validation.js"></script>
+    </div>
+</body>
+</html>
