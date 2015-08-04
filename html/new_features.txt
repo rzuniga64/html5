@@ -1,0 +1,33 @@
+New Features
+-   New sets of tabs such as <header> and <section> for more descriptive content
+-   <canvas> element ofr 2d drawing
+-   Local storage
+-   New form controls like calender, date and time
+-   New media functionality
+-   Geolocation
+
+HTML5 Browser Support
+
+HTML5 is not an official standard yet and not all browsers support HTML4 or at least some of the features of HTML5.
+The base layout for an HTML document is the exact same. Flash is needed for advanced video processing and editing.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Page title </title>
+    </head>
+    <body>
+        <p> Hello World! </p>
+    </body>
+</html>
+
+Expanding HTML
+
+One of the biggest reasons for HTML5 is to prevent users from needing to download and install multiple third party
+plugins such as Flash and Silverlight. Some say HTML5 will repalce Flash.
+
+HTML5 Stack: HTML5, CSS3, Javascript
+HTML5 New Elements: http://www.w3schools.com/html/html5_new_elements.asp
+
+
+
