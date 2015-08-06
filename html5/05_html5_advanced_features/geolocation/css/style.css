@@ -113,7 +113,7 @@ nav#menu ul{
 nav#menu li{
 	list-style:none;
 	padding:0;
-	display;inline;
+	display:inline;
 }
 
 nav#menu li a,#menu li a:visited{
@@ -197,7 +197,7 @@ section{
 table.dev-table,table.dev-table tr,table.dev-table td,table.dev-table th{
 	font-size:110%;
 }
-dev-table tr,table.dev-table td{
+.dev-table tr,table.dev-table td{
 	border-bottom: 1px dashed #000000;
 }
 
