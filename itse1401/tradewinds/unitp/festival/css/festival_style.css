@@ -34,7 +34,7 @@
 	background-color: #2FA8E0;
 	float: left;
 	width: 150px;
-	background-image: url('../assets/twf_branding_bg.gif');
+	background-image: url('../../assets/twf_branding_bg.gif');
 	height: 600px;
 	background-color: #B1012A;
 }
@@ -55,7 +55,7 @@
 }
 #container {
 	width: 700px;
-	background-image: url('../assets/twf_container_bg.gif');
+	background-image: url('../../assets/twf_container_bg.gif');
 	background-repeat: repeat-y;
 }
 
@@ -64,7 +64,7 @@ body {
 	margin-left: 0px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #2E7EA5;
-	background-image: url('../assets/twf_body_bg.gif');
+	background-image: url('../../assets/twf_body_bg.gif');
 }
 
 h2 {
