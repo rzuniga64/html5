@@ -1,127 +1,192 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
-<meta content="en-us" http-equiv="Content-Language" />
-<title>TradeWinds Reservations</title>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<meta content="folk art, jewelry, steel drum music, seafood" name="keywords" />
-<meta content="Featuring delicious island cuisine, beautiful imported goods, and live music." name="description" />
-<link href="twstyles.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">
-<!--
-function FP_swapImg() {//v1.0
- var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
- n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
- elm.$src=elm.src; elm.src=args[n+1]; } }
-}
+    <head>
+        <meta content="en-us" http-equiv="Content-Language" />
+        <title>TradeWinds Reservations</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="folk art, jewelry, steel drum music, seafood" name="keywords" />
+        <meta content="Featuring delicious island cuisine, beautiful imported goods, and live music." name="description" />
+        <link href="twstyles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+            <!--
+            function FP_swapImg() {//v1.0
+                var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array();
+                for(n=2; n<args.length;n+=2) {
+                    elm=FP_getObjectByID(args[n]);
+                    if(elm) {
+                        doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+                        elm.$src=elm.src; elm.src=args[n+1];
+                    }
+                }
+            }
 
-function FP_preloadImgs() {//v1.0
- var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
- for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
-}
+            function FP_preloadImgs() {//v1.0
+                var d=document,a=arguments;
+                if(!d.FP_imgs) d.FP_imgs=new Array();
+                for(var i=0; i<a.length; i++) {
+                    d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i];
+                }
+            }
 
-function FP_getObjectByID(id,o) {//v1.0
- var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
- else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
- if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
- for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
- f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
- for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
- return null;
-}
+            function FP_getObjectByID(id,o) {//v1.0
+                var c,el,els,f,m,n; if(!o)o=document;
+                if(o.getElementById) el=o.getElementById(id);
+                else if(o.layers) c=o.layers;
+                else if(o.all) el=o.all[id];
+                if(el) return el;
+                if(o.id==id || o.name==id) return o;
+                if(o.childNodes) c=o.childNodes;
+                if(c)
+                    for(n=0; n<c.length; n++) {
+                        el=FP_getObjectByID(id,c[n]);
+                        if(el) return el;
+                    }
+                f=o.forms;
+                if(f)
+                    for(n=0; n<f.length; n++) {
+                        els=f[n].elements;
+                        for(m=0; m<els.length; m++){
+                            el=FP_getObjectByID(id,els[n]);
+                            if(el) return el;
+                        }
+                    }
+                return null;
+            }
 
-function FP_openNewWindow(w,h,nav,loc,sts,menu,scroll,resize,name,url) {//v1.0
- var windowProperties=''; if(nav==false) windowProperties+='toolbar=no,'; else
-  windowProperties+='toolbar=yes,'; if(loc==false) windowProperties+='location=no,'; 
- else windowProperties+='location=yes,'; if(sts==false) windowProperties+='status=no,';
- else windowProperties+='status=yes,'; if(menu==false) windowProperties+='menubar=no,';
- else windowProperties+='menubar=yes,'; if(scroll==false) windowProperties+='scrollbars=no,';
- else windowProperties+='scrollbars=yes,'; if(resize==false) windowProperties+='resizable=no,';
- else windowProperties+='resizable=yes,'; if(w!="") windowProperties+='width='+w+',';
- if(h!="") windowProperties+='height='+h; if(windowProperties!="") { 
-  if( windowProperties.charAt(windowProperties.length-1)==',') 
-   windowProperties=windowProperties.substring(0,windowProperties.length-1); } 
- window.open(url,name,windowProperties);
-}
-// -->
-</script>
-<style type="text/css">
-.auto-style1 {
-	height: 90px;
-	width: 175px;
-}
-</style>
-</head>
+            function FP_openNewWindow(w,h,nav,loc,sts,menu,scroll,resize,name,url) {//v1.0
+                var windowProperties='';
+                if(nav==false) windowProperties+='toolbar=no,';
+                else windowProperties+='toolbar=yes,'; if(loc==false) windowProperties+='location=no,';
+                else windowProperties+='location=yes,'; if(sts==false) windowProperties+='status=no,';
+                else windowProperties+='status=yes,'; if(menu==false) windowProperties+='menubar=no,';
+                else windowProperties+='menubar=yes,'; if(scroll==false) windowProperties+='scrollbars=no,';
+                else windowProperties+='scrollbars=yes,'; if(resize==false) windowProperties+='resizable=no,';
+                else windowProperties+='resizable=yes,'; if(w!="") windowProperties+='width='+w+',';
+                if(h!="") windowProperties+='height='+h; if(windowProperties!="") {
+                    if( windowProperties.charAt(windowProperties.length-1)==',')
+                        windowProperties=windowProperties.substring(0,windowProperties.length-1); }
+                window.open(url,name,windowProperties);
+            }
+            // -->
+        </script>
+            <style type="text/css">
+            .auto-style1 {
+                height: 90px;
+                width: 175px;
+            }
+        </style>
+    </head>
 
-<body onload="FP_preloadImgs(/*url*/'assets/button71.jpg',/*url*/'assets/button72.jpg',/*url*/'assets/button74.gif',/*url*/'assets/button75.gif',/*url*/'assets/button77.gif',/*url*/'assets/button78.gif',/*url*/'assets/button7A.gif',/*url*/'assets/button7B.gif',/*url*/'assets/button7D.gif',/*url*/'assets/button7E.gif')">
+    <body onload="FP_preloadImgs(/*url*/'assets/button71.jpg',
+                                  /*url*/'assets/button72.jpg',
+                                  /*url*/'assets/button74.gif',
+                                  /*url*/'assets/button75.gif',
+                                  /*url*/'assets/button77.gif',
+                                  /*url*/'assets/button78.gif',
+                                  /*url*/'assets/button7A.gif',
+                                  /*url*/'assets/button7B.gif',
+                                  /*url*/'assets/button7D.gif',
+                                  /*url*/'assets/button7E.gif')">
+        <div id="masthead"></div>
+        <div id="top_nav"></div>
+        <div id="container">
+            <div id="left_col">
+                <a href="default.html">
+                <img id="img1" alt="Home " height="20"
+                     onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'assets/button72.jpg')"
+                     onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'assets/button70.jpg')"
+                     onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'assets/button71.jpg')"
+                     onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'assets/button71.jpg')"
+                     src="assets/button70.jpg" style="border: 0" width="100" />
+                     <!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Home " --></a><br />
+                <a href="menu.html">
+                <img id="img2" alt="Menu" height="20"
+                     onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'assets/button75.gif')"
+                     onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'assets/button73.gif')"
+                     onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'assets/button74.gif')"
+                     onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'assets/button74.gif')"
+                     src="assets/button73.gif" style="border: 0" width="100" />
+                     <!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Menu" --></a><br />
+                <a href="store.html">
+                <img id="img3" alt="Store" height="20"
+                     onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'assets/button78.gif')"
+                     onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'assets/button76.gif')"
+                     onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'assets/button77.gif')"
+                     onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'assets/button77.gif')"
+                     src="assets/button76.gif" style="border: 0" width="100" />
+                    <!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Store" --></a><br />
+                <a href="music.html">
+                <img id="img4" alt="Music" height="20"
+                     onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'assets/button7B.gif')"
+                     onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'assets/button79.gif')"
+                     onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'assets/button7A.gif')"
+                     onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'assets/button7A.gif')"
+                     src="assets/button79.gif" style="border: 0" width="100" />
+                    <!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Music" --></a><br />
+                <a href="reservations.html">
+                <img id="img5" alt="Reservation" height="20"
+                     onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'assets/button7E.gif')"
+                     onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'assets/button7C.gif')"
+                     onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'assets/button7D.gif')"
+                     onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'assets/button7D.gif')"
+                     src="assets/button7C.gif" style="border: 0" width="100" />
+                    <!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 11; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Reservation" --></a>
+            </div>
 
-<div id="masthead">
-</div>
-<div id="top_nav">
-</div>
-<div id="container">
-	<div id="left_col">
-		<a href="default.html">
-		<img id="img1" alt="Home " height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'assets/button72.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'assets/button70.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'assets/button71.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'assets/button71.jpg')" src="assets/button70.jpg" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Home " --></a><br />
-		<a href="menu.html">
-		<img id="img2" alt="Menu" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'assets/button75.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'assets/button73.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'assets/button74.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'assets/button74.gif')" src="assets/button73.gif" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Menu" --></a><br />
-		<a href="store.html">
-		<img id="img3" alt="Store" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'assets/button78.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'assets/button76.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'assets/button77.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'assets/button77.gif')" src="assets/button76.gif" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Store" --></a><br />
-		<a href="music.html">
-		<img id="img4" alt="Music" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'assets/button7B.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'assets/button79.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'assets/button7A.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'assets/button7A.gif')" src="assets/button79.gif" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 12; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Music" --></a><br />
-		<a href="reservations.html">
-		<img id="img5" alt="Reservation" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'assets/button7E.gif')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'assets/button7C.gif')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'assets/button7D.gif')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'assets/button7D.gif')" src="assets/button7C.gif" style="border: 0" width="100" /><!-- MSComment="ibutton" fp-style="fp-btn: Braided Column 4; fp-font: Arial, Helvetica, sans-serif, Lucida Sans; fp-font-style: Bold; fp-font-size: 11; fp-font-color-normal: #FFFFFF; fp-font-color-hover: #FE8402; fp-justify-horiz: 0; fp-transparent: 1" fp-title="Reservation" --></a></div>
-	<div id="page_content">
-		<h1>Reservations </h1>
-		<p>We take reservations for lunch and dinner for any size party. You may 
-		make a reservation for the dining room or the lounge. </p>
-		<p>We book quickly on weekend nights so plan ahead! </p>
-		<p>Be sure to check our<a href="javascript:;" onclick="FP_openNewWindow('800', '400', false, false, false, false, true, true, '', /*href*/'music.html')"> live entertainment schedule</a> if you&#39;d like to 
-		enjoy music during your meal. </p>
-		<form action="" method="post">
-			<fieldset name="Group1"><legend>Your Information</legend>
-			<p>Name<br />
-			<input name="name" type="text" /></p>
-			<p>Email Address<br />
-			<input name="email" type="text" /></p>
-			</fieldset>
-			<fieldset name="Group1"><legend>Reservation Information</legend>
-			<p>Reservation Date<br />
-			<input name="date" type="text" /></p>
-			<p>Location<br />
-			<input name="location" type="radio" value="diningroom" />Caf&eacute; Dining 
-			Room<br />
-			<input name="location" type="radio" value="lounge" />Lounge</p>
-			</fieldset>
-			<fieldset name="Group1"><legend>Optional Information</legend>
-			<p>How did you hear about us?<br />
-			<input name="islander" type="checkbox" value="islander" />Islander 
-			Newspaper<br />
-			<input name="website" style="height: 20px" type="checkbox" value="website" />Web 
-			Site<br />
-			<input name="wordofmouth" type="checkbox" value="wordofmouth" />Word 
-			of Mouth</p>
-			<p>If you would like to receive email updates from TradeWinds, 
-			please choose an area of interest:<br />
-			<select name="Select1">
-			<option>Select an Area of interest:</option>
-			<option>Emporium Products</option>
-			<option>Music Events</option>
-			</select></p>
-			<p>Other Comments<br />
-			<textarea class="auto-style1" name="comments" cols="20" rows="2">Type comments here</textarea></p>
-			<p><input name="submit" type="submit" value="Send" />&nbsp;<input name="reset" type="reset" value="Cancel" /></p>
-			</fieldset>
-		</form>
-	</div>
-</div>
-<div id="footer">Home</a> | <a href="menu.html">Menu</a> |<a href="music.html"> Live Music</a> | 
-	<a href="store.html">Store</a> | <a href="reservations.html">Reservations</a>
-	<a href="contact.html">Contact Us</a> <br />
-&copy; 2013 TradeWinds | <a href="mailto:info@tradewindsemporium.com?subject=Web Site Contact">info@tradewindsemporium.com</a>
-</div>
-
-</body>
-
+            <div id="page_content">
+                <h1>Reservations </h1>
+                <p><span class="dropcap">W</span>e take reservations for lunch and dinner for any size party. You may
+                make a reservation for the dining room or the lounge. </p>
+                <p>We book quickly on weekend nights so plan ahead! </p>
+                <p>Be sure to check our
+                    <a href="javascript:;" onclick="FP_openNewWindow('800', '400', false, false, false, false, true, true, '', /*href*/'music.html')"> live entertainment schedule</a>
+                    if you&#39;d like to enjoy music during your meal. </p>
+				<form action="" method="post">
+					<fieldset name="Group1"><legend>Your Information</legend>
+						<p>Name<br />
+							<input name="name" type="text" /></p>
+						<p>Email Address<br />
+							<input name="email" type="text" /></p>
+					</fieldset>
+					<fieldset name="Group1"><legend>Reservation Information</legend>
+						<p>Reservation Date<br />
+							<input name="date" type="text" /></p>
+						<p>Location<br />
+							<input name="location" type="radio" value="diningroom" />Caf&eacute; Dining
+							Room<br />
+							<input name="location" type="radio" value="lounge" />Lounge</p>
+					</fieldset>
+					<fieldset name="Group1"><legend>Optional Information</legend>
+						<p>How did you hear about us?<br />
+							<input name="islander" type="checkbox" value="islander" />Islander
+							Newspaper<br />
+							<input name="website" style="height: 20px" type="checkbox" value="website" />Web
+							Site<br />
+							<input name="wordofmouth" type="checkbox" value="wordofmouth" />Word
+							of Mouth</p>
+						<p>If you would like to receive email updates from TradeWinds,
+							please choose an area of interest:<br />
+							<select name="Select1">
+								<option>Select an Area of interest:</option>
+								<option>Emporium Products</option>
+								<option>Music Events</option>
+							</select></p>
+						<p>Other Comments<br />
+							<textarea class="auto-style1" name="comments" cols="20" rows="2">Type comments here</textarea></p>
+						<p><input name="submit" type="submit" value="Send" />&nbsp;<input name="reset" type="reset" value="Cancel" /></p>
+					</fieldset>
+				</form>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="default.html">Home</a> |
+            <a href="menu.html">Menu</a> |
+            <a href="music.html"> Live Music</a> |
+            <a href="store.html">Store</a> |
+            <a href="reservations.html">Reservations</a>
+            <a href="contact.html">Contact Us</a> <br />&copy; 2013 TradeWinds |
+            <a href="mailto:info@tradewindsemporium.com?subject=Web Site Contact">info@tradewindsemporium.com</a>
+        </div>
+    </body>
 </html>
