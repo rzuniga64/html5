@@ -3,7 +3,7 @@
 	margin-left: 0;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #2E7EA5;
-	background-image: url('../../assets/twf_body_bg.gif');
+	background-image: url('../../../assets/twf_body_bg.gif');
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
 }
 
 #branding {
-    background: left top #2FA8E0 url('../../assets/twf_branding_bg.gif');
+    background: left top #2FA8E0 url('../../../assets/twf_branding_bg.gif');
     float: left;
     width: 150px;
     height: 600px;
@@ -20,7 +20,7 @@ h2 {
 
 #container {
     width: 700px;
-    background: url('../../assets/twf_container_bg.gif') repeat-y;
+    background: url('../../../assets/twf_container_bg.gif') repeat-y;
 }
 
 #content {
@@ -68,7 +68,7 @@ h2 {
 }
 
 #sidebar {
-    background-image: url('../../assets/twf_sidebar_bg.gif');
+    background-image: url('../../../assets/twf_sidebar_bg.gif');
     padding: 10px;
     margin: 10px;
     width: 200px;
