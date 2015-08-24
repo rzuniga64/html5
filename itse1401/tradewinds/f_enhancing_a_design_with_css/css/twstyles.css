@@ -1,5 +1,4 @@
-﻿  /* CSS layout */
-body {
+﻿body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
@@ -7,19 +6,35 @@ body {
 	color: #41924B;
 	background-color: #9BDBEB;
 }
+
+li {
+    list-style-type: square;
+}
+
+h1 {
+	font-family: "Lucida Sans", Arial, Helvitica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FE8402;
+	border-bottom: solid 1px #51a5ba;
+	margin: 0;
+}
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #51a5ba;
+}
+
 #masthead {
-	background-image: url('../../assets/tw_header.gif');
-	background-repeat: no-repeat;
+	background: url('../../assets/tw_header.gif') no-repeat;
 	height: 197px;
 }
 
-#top_nav {
-}
+#top_nav { }
 
 #container {
 	min-width: 600px;
-	background-image: url('../../assets/tw_bg.gif');
-	background-repeat: repeat-y;
+	background: url('../../assets/tw_bg.gif') repeat-y;
 }
 
 #left_col {
@@ -31,39 +46,21 @@ body {
 	padding: 15px;
 	margin-left: 200px;
 	background-color: #FFFFFF;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-width: 4px;
+	border-top: solid 4px #87E293;
+	border-bottom: solid 4px #87E293;
 	border-left-width: 4px;
-	border-top-color: #87E293;
-	border-bottom-color: #87E293;
 }
 #footer {
-	clear: both;
-	font-size: 10px;
-	font-weight: bold;
-	text-align: center;
-	margin-top: 20px;
+    clear: both;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }
-li {
-	list-style-type: square;
-}
+
 .highlight {
 	font-weight: bold;
 	background-color: #FFE9BB;
 }
-h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 22px;
-	font-weight: bold;
-	color: #FE8402;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #51A5BA;
-	margin: 0px;
-}
-h2 {
-	font-size: 18px;
-	font-weight: bold;
-	color: #51a5ba;
-}
+
+

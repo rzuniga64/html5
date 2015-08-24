@@ -8,7 +8,7 @@ body {
 	background-color: #9BDBEB;
 }
 #masthead {
-	background-image: url('assets/tw_header.gif');
+	background-image: url('../assets/tw_header.gif');
 	background-repeat: no-repeat;
 	height: 197px;
 }
