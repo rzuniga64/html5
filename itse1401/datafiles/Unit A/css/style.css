@@ -5,6 +5,38 @@
 	font-style: normal;
 	background-color: #fff;
 }
+h1 {
+	font-size: 2em;
+	color: #393939;
+}
+h2 {
+	font-size: 1.75em;
+	color: #9B1C2F;
+}
+h3 {
+	font-size: 1.5em;
+	color: #469;
+}
+h4 {
+	font-size: 1.25em;
+	color: #469;
+}
+h5 {
+	font-size: 0.75em;
+	color: #469;
+}
+h6 {
+	font-size: 0.5em;
+	color: #469;
+}
+a {
+	color: #469;
+	text-decoration: underline;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
 #container {
 	width: 100%;
 	margin: 0;
@@ -87,32 +119,6 @@
 	border: 1px solid #ed9;
 	background-color: #ed9;
 }
-/* Styles for Content */
-h1 {
-	font-size: 2em;
-	color: #393939;
-}
-h2 {
-	font-size: 1.75em;
-	color: #9B1C2F;
-}
-h3 {
-	font-size: 1.5em;
-	color: #469;
-}
-h4 {
-	font-size: 1.25em;
-	color: #469;
-}
-h5 {
-	font-size: 0.75em;
-	color: #469;
-}
-h6 {
-	font-size: 0.5em;
-	color: #469;
-}
-/* Styles for Footer */
 #footer p {
 	font-size: x-small;
 	text-align: center;
@@ -129,14 +135,6 @@ h6 {
 	text-decoration: none;
 }
 /* Styles for Links */
-a {
-	color: #469;
-	text-decoration: underline;
-}
-a:hover {
-	color: #000;
-	text-decoration: underline;
-}
 .style_bold {
 	font-weight: bold;
 }

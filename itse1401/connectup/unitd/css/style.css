@@ -1,17 +1,15 @@
 ﻿/* CSS layout */
-#masthead {
-}
-#top_nav {
-}
-#page_content {
-}
-#footer {
-}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #666666;
 }
+
+#masthead { }
+#top_nav { }
+#page_content { }
+#footer { }
+
 .qa {
 	color: #488FDF;
 	background-color: #FBFB00;
