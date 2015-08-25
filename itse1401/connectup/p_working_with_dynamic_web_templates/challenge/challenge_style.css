@@ -7,17 +7,32 @@
 	margin-left: 0;
 }
 
+h1 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #6FD917;
+	margin: 0px 0px 10px 0px;
+}
+h2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #FF8800;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+}
+
 #container {
 	width: 750px;
 	margin: auto;
-	background-image: url('../assets/cuc_container_bg.gif');
+	background-image: url('../../assets/cuc_container_bg.gif');
 	background-repeat: repeat-y;
 }
 
 #banner {
 	float: left;
 	width: 250px;
-	background-image: url('../assets/cuc_banner_bg.gif');
+	background-image: url('../../assets/cuc_banner_bg.gif');
 	background-repeat: no-repeat;
 	min-height: 625px;
 	background-color: #13171B;
@@ -45,20 +60,5 @@
 	text-align: center;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 9px;
-}
-
-h1 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 30px;
-	font-weight: bold;
-	color: #6FD917;
-	margin: 0px 0px 10px 0px;
-}
-h2 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 24px;
-	color: #FF8800;
-	text-transform: uppercase;
-	letter-spacing: -2px;
 }
 
