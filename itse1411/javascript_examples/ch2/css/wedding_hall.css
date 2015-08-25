@@ -63,9 +63,7 @@ P
 }
 textarea
 {
-    border-style:ridge;
-    border-color: inherit;
-    border-width: medium;
+    border: ridge inherit medium;
     background-color: Transparent;
     overflow: hidden;
     width: 388px;
