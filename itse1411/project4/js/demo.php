@@ -3,7 +3,7 @@
   <html>
   		<head>
 			<title>Form Confirmation</title>
-  			<link rel=\"stylesheet\" href=\"demo.css\" type=\"text/css\" />
+  			<link rel=\"stylesheet\" href=\"css\styles.css\" type=\"text/css\" />
   		</head>
   		<body>
   			<h1>Your information has been received</h1>";
