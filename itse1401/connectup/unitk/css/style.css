@@ -2,7 +2,7 @@
 #masthead {
 }
 #top_nav {
-	background-image: url('assets/cu_logo.jpg');
+	background-image: url('../assets/cu_logo.jpg');
 	background-repeat: no-repeat;
 	height: 200px;
 	background-color: #488FDF;
@@ -17,7 +17,7 @@
 	padding: 25px;
 }
 #footer {
-	font-size: 12px;
+	font-size: 10px;
 	color: #FFFFFF;
 	margin: 15px;
 	text-align: center;
@@ -46,8 +46,6 @@ h2 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	color: #96D917;
-	text-transform: uppercase;
-	letter-spacing: -2;
 }
 a:link {
 	font-weight: bold;
@@ -61,7 +59,4 @@ a:hover {
 	color: #488FDF;
 	font-weight: bold;
 	background-color: #FFDF57;
-}
-p {
-	line-height: 170%;
 }
