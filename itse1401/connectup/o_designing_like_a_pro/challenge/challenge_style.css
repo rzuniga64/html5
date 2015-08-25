@@ -17,7 +17,7 @@
 #banner {
 	float: left;
 	width: 250px;
-	background-image: url('../assets/cuc_banner_bg.gif');
+	background-image: url('../../assets/cuc_banner_bg.gif');
 	background-repeat: no-repeat;
 	min-height: 625px;
 	background-color: #13171B;

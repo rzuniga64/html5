@@ -1,62 +1,67 @@
-﻿/* CSS layout */
-#masthead {
-}
-#top_nav {
-	background-image: url('assets/cu_logo.jpg');
-	background-repeat: no-repeat;
-	height: 200px;
+﻿body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
 	background-color: #488FDF;
 }
+
+h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3399FF;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #96D917;
+}
+
+a:link {
+    font-weight: bold;
+    color: #85C016;
+}
+
+a:visited {
+    color: #666666;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #488FDF;
+    font-weight: bold;
+    background-color: #FFDF57;
+}
+
+#masthead { }
+
+#top_nav {
+	background: url('../../assets/cu_logo.jpg') no-repeat #488FDF;
+	height: 200px;
+}
+
 #page_content {
 	background-color: #FFFFFF;
-	border-top-width: 3px;
-	border-bottom-width: 3px;
-	border-top-color: #FFDF57;
-	border-bottom-color: #FFDF57;
+	border-top: 3px #FFDF57;
+	border-bottom: 3px #FFDF57;
 	border-style: solid none solid none;
 	padding: 25px;
 }
+
 #footer {
 	font-size: 10px;
 	color: #FFFFFF;
 	margin: 15px;
 	text-align: center;
 }
-body {
-	margin: 0px;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #666666;
-	background-color: #488FDF;
-}
+
 .qa {
 	color: #488FDF;
 	background-color: #FBFB00;
 	font-size: 16px;
 	font-weight: bold;
 }
-h1 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 32px;
-	font-weight: bold;
-	color: #3399FF;
-	margin: 0px 0px 10px 0px;
-}
-h2 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 24px;
-	color: #96D917;
-}
-a:link {
-	font-weight: bold;
-	color: #85C016;
-}
-a:visited {
-	color: #666666;
-	font-weight: bold;
-}
-a:hover {
-	color: #488FDF;
-	font-weight: bold;
-	background-color: #FFDF57;
-}
+

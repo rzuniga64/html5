@@ -1,5 +1,5 @@
 ﻿body {
-	margin: 0px;
+	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #666666;
@@ -11,7 +11,7 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     color: #3399FF;
-    margin: 0px 0px 10px 0px;
+    margin: 0 0 10px 0;
 }
 
 h2 {
@@ -39,18 +39,14 @@ a:hover {
 #masthead { }
 
 #top_nav {
-	background-image: url('../../assets/cu_logo.jpg');
-	background-repeat: no-repeat;
+	background: url('../../assets/cu_logo.jpg') no-repeat #488FDF;
 	height: 200px;
-	background-color: #488FDF;
 }
 
 #page_content {
 	background-color: #FFFFFF;
-	border-top-width: 3px;
-	border-bottom-width: 3px;
-	border-top-color: #FFDF57;
-	border-bottom-color: #FFDF57;
+	border-top: 3px #FFDF57;
+	border-bottom: 3px #FFDF57;
 	border-style: solid none solid none;
 	padding: 25px;
 }
