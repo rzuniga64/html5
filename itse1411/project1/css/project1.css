@@ -3,7 +3,7 @@ body { background-color: #11465F; color: #B4DC2A; font-size: 14px; font-family: 
 .header { background: none repeat scroll 0 center rgba(0, 0, 0, 0); display: inline-flex; }
 
 .nav {
-    background: url("../../images/horizontal_filmstrip.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("../images/horizontal_filmstrip.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 130px;
     margin-top: 20px;
     width: 900px;
