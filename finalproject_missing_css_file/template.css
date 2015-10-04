@@ -560,7 +560,7 @@ body.catalog-category-view div.wrapper div.page div.main div.col-main div.catego
 }
 
 .sorter {
-    background: url("images/bkg_pager.gif") repeat-x scroll 0 0 #F5F5F5;
+    background: url("../images/bkg_pager.gif") repeat-x scroll 0 0 #F5F5F5;
     border-top: 1px solid #DDDDDD;
     color: #333333;
     font-size: 11px;
@@ -674,7 +674,7 @@ body.catalog-category-view div.wrapper div.page div.main div.col-main div.catego
 }
 
 input.input-text, select, textarea {
-    background: url("images/bkg_input.gif") repeat-x scroll 0 0 #FFFFFF;
+    background: url("../images/bkg_input.gif") repeat-x scroll 0 0 #FFFFFF;
     border: 1px solid #C7C7C7;
 }
 

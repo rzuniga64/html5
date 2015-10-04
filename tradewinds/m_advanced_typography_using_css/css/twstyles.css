@@ -32,7 +32,6 @@ h2 {
 
 h3 {
     font-family: "Lucida Sans", Arial, Helvitica, sans-serif;
-    font-size: q4;
     color: #F18001;
     letter-spacing: -1px;
     border-left: solid 4px #51A5BA;
@@ -46,7 +45,7 @@ blockquote {
     color: #51B4DD;
     line-height: 90%;
     text-align: center;
-    background-image: url('quotebg.gif');
+    background-image: url('../../assets/quotebg.gif');
     background-repeat: no-repeat;
     padding-top: 40px;
     padding-left: 20px;
@@ -65,7 +64,7 @@ a:hover {
 }
 
 #masthead {
-	background: url('tw_header.gif') no-repeat;
+	background: url('../../assets/tw_header.gif') no-repeat;
 	height: 197px;
 }
 

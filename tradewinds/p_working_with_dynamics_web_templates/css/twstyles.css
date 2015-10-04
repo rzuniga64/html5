@@ -8,8 +8,8 @@ body {
 	background-color: #9BDBEB;
 }
 #masthead {
-	background-image: url('assets/tw_header.gif');
-	background-repeat: no-repeat;
+	background: url('../../assets/tw_header.gif') no-repeat;
+	height: 197px;
 	height: 197px;
 }
 
@@ -18,7 +18,7 @@ body {
 
 #container {
 	min-width: 600px;
-	background-image: url('assets/tw_bg.gif');
+	background-image: url('../../assets/tw_bg.gif');
 	background-repeat: repeat-y;
 }
 
@@ -62,7 +62,7 @@ h1 {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #51A5BA;
-	margin: 0px;
+	margin: 0;
 }
 h2 {
 	font-size: 18px;
@@ -92,7 +92,7 @@ blockquote {
 	color: #51B4DD;
 	line-height: 90%;
 	text-align: center;
-	background-image: url('assets/quotebg.gif');
+	background-image: url('../../assets/quotebg.gif');
 	background-repeat: no-repeat;
 	padding-top: 40px;
 	padding-left: 20px;
