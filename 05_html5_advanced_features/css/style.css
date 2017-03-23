@@ -11,7 +11,7 @@ body{
 	font-family:arial,helvetica, sens-serif;
 	color:#000000;
 	background-color:#1c478e;
-	background-image:url(../../../images/background.png);
+	background-image:url(../../images/background.png);
 	background-repeat:repeat-x;
 }
 
@@ -92,6 +92,21 @@ header h1 span.blue-text{
 
 header h2 span.white-text{
 	color:#ffffff;
+}
+
+aside{
+	color:#fff;
+}
+aside input[type="text"],aside input[type="email"]{
+	color:#000;
+	margin-bottom:5px;
+}
+
+#displayname{
+	float:right;
+	color:#fff;
+	font-weight:bold;
+	font-size:16px;
 }
 
 nav#menu{
